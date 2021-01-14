@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": "./tsconfig.*?.json"
+  },
+  "ignorePatterns": ["**/*.js"],
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "settings": {
+  },
+  "rules": {
+  }
+}
