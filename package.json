@@ -1,0 +1,59 @@
+{
+  "name": "@waracle/serverless-cloudformation-validation",
+  "version": "0.0.0",
+  "description": "Serverless plugin to validate the compiled Cloudformation template as part of a deployment",
+  "keywords": [
+    "serverless",
+    "sls",
+    "aws",
+    "cloudformation",
+    "validation",
+    "deployment"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Waracle/serverless-cloudformation-validation.git"
+  },
+  "author": "Waracle Ltd. <support@waracle.com>",
+  "maintainers": [
+    {
+      "name": "Nick Hammond",
+      "email": "n.hammond@waracle.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/waracle/serverless-cloudformation-validation/issues"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "lint": "eslint -c ./.eslintrc.json src/*",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest -c ./jest.config.js",
+    "test:coverage": "npm test -- --coverage",
+    "posttest:coverage": "jest-coverage-badges"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.826.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.20",
+    "@types/serverless": "^1.78.19",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "husky": "^4.3.7",
+    "jest": "^26.6.3",
+    "jest-coverage-badges": "^1.1.2",
+    "jest-junit": "^12.0.0",
+    "prettier": "^2.2.1",
+    "semantic-release": "^17.3.2",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}
