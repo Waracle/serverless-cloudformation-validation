@@ -11,24 +11,20 @@ This [Serverless] plugins validates the compiled [Cloudformation] template prior
 
 First, add Serverless Cloudformation Validation to your project:
 
-npm install serverless-cloudformation-validation-plugin --save-dev
+```shell
+npm install --save-dev @waracle/serverless-cloudformation-validation
+````
 
 Then inside your project's serverless.yml file add following entry to the plugins section: serverless-cloudformation-validation-plugin.  
 If there is no plugin section you will need to add it to the file.
 
-_Note that the "plugin" section for serverless-cloudformation-validation-plugin must be at root level on serverless.yml._
+_Note that the "plugin" section for serverless-cloudformation-validation must be at root level on serverless.yml._
 
 It should look something like this:
 ```yaml
 plugins:
-- serverless-cloudformation-validation-plugin
-``` 
-
-  You can check whether you have successfully installed the plugin by running the serverless command line:
-
-`serverless --verbose`
-
-the console should display cloudformation-validation as one of the plugins now available in your Serverless project.
+- '@waracle/serverless-cloudformation-validation'
+```
 
 ## Usage and command line options
 
