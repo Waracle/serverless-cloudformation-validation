@@ -25,6 +25,6 @@ jobs:
       - name: Lint
         run: npm run lint
       - name: Test
-        run: npm test
+        run: npm test -- --passWithNoTests
       - name: Build
         run: npm run build
