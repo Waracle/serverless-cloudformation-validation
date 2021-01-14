@@ -16,6 +16,10 @@ class ServerlessPlugin {
     return this._serverless;
   }
 
+  get hooks(): Plugin.Hooks {
+    return this._hooks;
+  }
+
   get options(): Serverless.Options {
     return this._options;
   }
