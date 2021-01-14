@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Waracle/serverless-cloudformation-validation/compare/v1.0.2...v1.0.3) (2021-01-14)
+
+
+### Bug Fixes
+
+* Fix the README for installation instructions ([af67981](https://github.com/Waracle/serverless-cloudformation-validation/commit/af6798164d6595cc2a352c5fdbea261af6f26e6f))
+
 ## [1.0.2](https://github.com/Waracle/serverless-cloudformation-validation/compare/v1.0.1...v1.0.2) (2021-01-14)
 
 
