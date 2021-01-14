@@ -1,12 +1,9 @@
 # Serverless Framework Cloudformation Validation Plugin
 
-![Build](https://github.com/actions/waracle/serverless-cloudformation-validation-plugin/workflows/build/badge.svg)
-
+![Release](https://github.com/Waracle/serverless-cloudformation-validation/workflows/Release/badge.svg)
 ![Test Coverage](./coverage/badge-lines.svg)
-
-![Typescript](https://img.shields.io/github/languages/top/waracle/serverless-cloudformation-validation-plugin)
-
-![Version](https://img.shields.io/npm/v/waracle/serverless-cloudformation-validation-plugin)
+![Language](https://img.shields.io/github/languages/top/waracle/serverless-cloudformation-validation)
+![Version](https://img.shields.io/npm/v/@waracle/serverless-cloudformation-validation)
 
 This [Serverless] plugins validates the compiled [Cloudformation] template prior to deployment
 
