@@ -25,11 +25,6 @@
       "automerge": true
     },
     {
-      "sourceUrlPrefixes": [
-        "https://github.com/nrwl/"
-      ]
-    },
-    {
       "updateTypes": [
         "major"
       ],
@@ -39,7 +34,7 @@
     }
   ],
   "schedule": [
-    "after 6pm and before 8am every weekday",
+    "after 5pm and before 8am every weekday",
     "every weekend"
   ],
   "vulnerabilityAlerts": {
