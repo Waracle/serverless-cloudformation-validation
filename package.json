@@ -1,6 +1,6 @@
 {
   "name": "@waracle/serverless-cloudformation-validation",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Serverless plugin to validate the compiled Cloudformation template as part of a deployment",
   "keywords": [
     "serverless",
