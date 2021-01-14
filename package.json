@@ -25,6 +25,9 @@
     "url": "https://github.com/waracle/serverless-cloudformation-validation/issues"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc --project ./tsconfig.json",
