@@ -63,6 +63,11 @@ class ServerlessPlugin {
       this.serverless.cli.log(chalk.green('Valid template'));
       return Promise.resolve();
     } catch (e) {
+      if (e.message.toString().match(/Access Denied/i)) {
+        // eslint-disable-next-line max-len
+        this.serverless.cli.log(chalk.yellow('Unable to access template file.  Likely due to Serverless skipping deployment.  Check logs to confirm'));
+        return Promise.resolve();
+      }
       this.serverless.cli.log(chalk.red(`Template is invalid. Error: ${e}`));
       return Promise.reject(e);
     }
