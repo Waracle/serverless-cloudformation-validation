@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Waracle/serverless-cloudformation-validation/compare/v1.0.3...v1.0.4) (2021-01-15)
+
+
+### Bug Fixes
+
+* Prevent deployment failure if deployment is skipped ([66e5aa1](https://github.com/Waracle/serverless-cloudformation-validation/commit/66e5aa1b884ae85b78e71718274a0408cb00fedb))
+
 ## [1.0.3](https://github.com/Waracle/serverless-cloudformation-validation/compare/v1.0.2...v1.0.3) (2021-01-14)
 
 
