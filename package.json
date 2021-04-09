@@ -46,7 +46,7 @@
     "@semantic-release/git": "9.0.0",
     "@types/jest": "26.0.22",
     "@types/node": "14.14.37",
-    "@types/serverless": "1.78.24",
+    "@types/serverless": "1.78.25",
     "@typescript-eslint/eslint-plugin": "4.21.0",
     "@typescript-eslint/parser": "4.21.0",
     "eslint": "7.23.0",
