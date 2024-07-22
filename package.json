@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.826.0",
-    "chalk": "^4.1.0"
+    "chalk": "^5.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
