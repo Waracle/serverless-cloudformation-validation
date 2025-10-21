@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           # The Node.js version to configure
-          node-version: 14
+          node-version: 22
       - name: Install dependencies
         run: npm ci
       - name: Lint
